@@ -1,0 +1,309 @@
+  body{
+   font-family: "Lobster two",cursive;
+   	text-align: center;
+   }
+   h1,h2,h3,h4,h5,h6{
+    font-family: 'Lobster two', cursive;
+    }
+   h2{font-size: 2.7rem;}
+   h3{font-size: 2.5 rem;}
+   p{ font-size: 1.5rem; }
+  
+  .container-fluid{
+    
+    padding-right:  0px;
+    padding-left:  0px;
+
+  }
+  
+  /*NAVBAR*/
+
+    .navbar{
+      position:absolute;
+     
+      width:100%;
+      z-index:10;
+      max-width:100%;
+   }
+    .navbar-brand
+    { font-family: 'Ubuntu', sans-serif;
+      font-size: 2.5rem;
+      font-weight: bold; }
+
+      .nav-item
+      { padding: 0 18px; }
+
+      .nav-link{
+        font-size: 1.2rem;
+        font-family: "Montserrat";
+
+      }
+
+/*TITLE SECTION*/
+  
+  #title.container-fluid
+  {  
+    text-align: left}
+    .carousel-inner {width: 100%; height: 650px;}
+
+
+    .title-section-data{
+        transition: padding 500;
+        padding: 0 25%;
+        text-align: left;
+        position: absolute;
+        top:14rem;
+        font-size:7 rem;
+    }
+    .introtext{
+         z-index: -1;
+         color: white;
+      }
+
+  .title-section-button
+     { margin-right: 10px }
+
+      .white-section
+  { background-color: #fff; }
+
+
+/* WELCOME TO ZIPPY*/
+#Welcome{
+
+
+  padding-top: 6%;
+}
+.welcome-heading{ margin-left: 3px; }
+.welcome-data{
+    margin-top: 2%;
+padding: 8% 25%;
+
+    padding-left: 35px;
+    padding-right: 10px;
+
+}
+.welcome-image-image{
+  height: 170px;
+  width: auto;
+  max-width: 100%;
+
+}
+ .icon{
+            color: #ef8172;
+            margin-bottom: 1rem;
+        }
+
+.icon:hover
+        { color: #ff4c68; }
+
+.feature-title
+       {font-sze: 1.5rem;}
+
+.feature-box
+  { 
+        padding: 5%; }
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+/* PROJECT */
+.project_body1{
+  background-color: #8ec5da;}
+  .project_body1:hover{
+  background-color: #74cabd;
+}
+.project_body2:hover{
+  background-color:  #c9c7c7;
+}
+.section-heading{
+    text-align:  center;
+    margin-top: 6%;
+    margin-bottom:  6%;
+}
+
+/* VIDEO PROJECTS */
+
+.video-fluid {
+  width: 30%;
+  height: 50%;
+}
+
+/* ZIPPY TEAM */
+
+
+.team-member-image{
+   height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #20b485;
+}
+.img-wrap {
+  
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.our_team_bx h5 {
+    text-transform: uppercase;
+    color: #2f2f2f;
+    font-weight: 600;
+    line-height: 24px;
+}
+.Social-icon{
+    margin: 5px;
+
+}
+.member-social-media-icons{
+  
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+
+}
+
+.img-wrap:hover .team-member-image {
+  
+  opacity: 0.3;
+  cursor: pointer;
+}
+.img-wrap:hover .member-social-media-icons {
+  
+  opacity: 1;
+}
+
+
+
+/* LIFE IN ZIPPY */
+  #default{
+  max-width:100%;
+  height: 400px;
+  
+  object-fit: cover;
+  
+}
+
+.Pic{
+  object-fit: cover;
+  max-width: 130px;
+  max-height: 200px;
+  cursor: pointer;
+  opacity: 0.8;
+  margin: 5px;
+
+
+}
+
+.Pic:hover{
+  opacity:1;
+  transform: scale(2);
+}
+
+
+.slide-box{
+  max-width: 900px;
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+  min-height: 200px;
+  align-items: center;
+}
+
+.slides-container{
+  width: 650px;
+  height: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+}
+
+div.scroll {
+                margin: 4px, 4px;
+                padding: 4px;
+                width: 650px;
+                overflow-x: auto;
+                overflow-y: hidden;
+                white-space: nowrap;
+            }
+
+/* NEWSLETTER-SIGNUP */
+
+#sign-up{
+  background-image:url("images\\sign-up.jpg");
+}
+.white-heading{
+  color: #fff;
+  padding-top:4%;
+  padding-bottom: 4%;
+}
+.newsletter_form{
+  width: 55%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+
+}
+
+/* BLOG */
+.blog-image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+}
+.date{
+  color: grey;
+}
+
+/* CONTACT */
+.contact-map{
+  height:  710px;
+  width: 400px;
+}
+.contact-section{
+  text-align: left;
+  margin: 0;
+  background-color: grey;
+  padding-left: 4%;
+  align-items: center;
+}
+.contact-form{
+  padding-left: 2%;
+  width: 450px;
+  padding-bottom: ;
+  
+}
+.contact_section_label{
+  font-size: 25px;
+  font-weight: bold !important;
+}
+.contact-button{
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+.box{
+  padding: 5%;
+  text-align: centre;
+}
+hr.solid {
+  border-top: 3px solid #000;
+}
+hr.underline{
+  width: 9rem;
+  height: .2rem;
+  background-color: #000;
+  
+}
